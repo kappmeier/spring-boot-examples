@@ -8,7 +8,9 @@ Some Spring Boot examples to show how to implement certain use cases in Spring B
 
 * [async-long-polling](async-long-polling)
 
-  Uses [`XMLHttpRequest`](https://en.wikipedia.org/wiki/XMLHttpRequest) to query the status of a long running asynchronous task, a.k.a. [long polling](https://en.wikipedia.org/wiki/Push_technology#Long_polling).
+  Uses [`XMLHttpRequest`](https://en.wikipedia.org/wiki/XMLHttpRequest) to query the status of a long running asynchronous task multiple times, a.k.a. [long polling](https://en.wikipedia.org/wiki/Push_technology#Long_polling).
+
+  A detailed description of the process is in [this article](https://nerdpause.de/mehrere-rueckgabewerte-eines-http-requests/) (in German).
 
 * [tomcat-jsp-sse](tomcat-jsp-sse)
 
